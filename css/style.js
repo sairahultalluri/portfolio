@@ -2,14 +2,14 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   'body': {
-    'fontFamily': ''Shadows Into Light', cursive',
+    'fontFamily': '"Shadows Into Light", cursive',
     'color': '#000',
     'fontWeight': '300'
   },
   'hr': {
     'border': [{ 'unit': 'string', 'value': 'none' }],
     'height': [{ 'unit': 'px', 'value': 3 }],
-    'backgroundColor': '#FF715B'
+    'backgroundColor': '#ff715b'
   },
   'h2': {
     'fontWeight': '800'
@@ -27,7 +27,7 @@ export default StyleSheet.create({
     }
   },
   'title-super-short': {
-    'fontSize': [{ 'unit': 'px', 'value': 60 }]
+    'fontSize': [{ 'unit': 'px', 'value': 40 }]
   },
   'title-logo': {
     'width': [{ 'unit': 'px', 'value': 110 }],

@@ -1,26 +1,30 @@
 	body {
-	font-family: 'Shadows Into Light', cursive;
+		font-family: "Shadows Into Light", cursive;
 		color: #000;
 		font-weight: 300;
 	}
 
 	hr {
+
 		border: none;
 		height: 3px;
-		background-color: #FF715B;
+		background-color: #ff715b;
 	}
+	
 
 	h2,
 	h3,
 	h4 {
+
 		font-weight: 800;
 	}
 
 	.title-super-full {
 		font-size: 60px;
 	}
+
 	.title-super-short {
-		font-size: 60px;
+		font-size: 40px;
 	}
 
 	.title-logo {
@@ -48,24 +52,26 @@
 	}
 
 	@media screen and (max-width: 700px) {
+
 		.project {
 			width: 50%;
 			padding: 10px;
 		}
 
-		.title-logo {
-			
-		}
+		
 	}
 
 
 	@media screen and (min-width: 451px) {
+
 		.title-super-full {
 			display: inline-block;
 		}
+
 		.title-super-short {
 			display: none;
 		}
+
 	}
 
 	@media screen and (max-width: 450px) {
@@ -73,10 +79,13 @@
 			width: 100%;
 			padding: 10px;
 		}
+
 		.title-super-full {
 			display: none;
 		}
+
 		.title-super-short {
 			display: inline-block;
 		}
+
 	}
